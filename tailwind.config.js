@@ -10,8 +10,21 @@ module.exports = {
     colors: {
       transparent: "transparent",
       current: "currentColor",
-      white: "#ffffff",
+      white: "#fff",
+      black: "#000",
+      yellow: {
+        100: "#FFFAEA",
+        200: "#FFF2C1",
+        300: "#FFE999",
+        400: "#FFE070",
+        500: "#FFD747",
+        600: "#FFCB0F",
+        700: "#D6A700",
+        800: "#9E7B00",
+        900: "#665000",
+      },
       purple: {
+        200: "#C9BDD2",
         400: "#826595",
         500: "#5F3B76",
         600: "#562E69",
@@ -37,6 +50,9 @@ module.exports = {
       },
       boxShadow: {
         btn: "0px 0px 1px rgba(12, 26, 75, 0.2), 0px 1px 3px rgba(50, 50, 71, 0.1)",
+        nav: "0px 2px 6px rgba(0, 0, 0, 0.08)",
+        box: "0px 2px 12px rgba(0, 0, 0, 0.08)",
+        inner: "inset 0px 0px 18px -4px rgba(0, 0, 0, 0.15)",
       },
     },
   },
