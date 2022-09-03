@@ -69,10 +69,10 @@ const Signup = () => {
           </button>
         </div>
 
-        <div class="mt-5 flex w-full items-center">
-          <div class="flex-grow border-t border-[#EDF2F7]"></div>
-          <span class="mx-6 flex-shrink text-sm text-gray-600">OR</span>
-          <div class="flex-grow border-t border-[#EDF2F7]"></div>
+        <div className="mt-5 flex w-full items-center">
+          <div className="flex-grow border-t border-[#EDF2F7]"></div>
+          <span className="mx-6 flex-shrink text-sm text-gray-600">OR</span>
+          <div className="flex-grow border-t border-[#EDF2F7]"></div>
         </div>
 
         <div className="mt-6 space-y-4">
@@ -100,7 +100,7 @@ const Signup = () => {
               {showPassword ? "HIDE" : "SHOW"}
             </button>
           </div>
-          <button class="mt-6 w-full rounded-[4px] bg-purple-500 py-[6px] tracking-[0.01em] text-white hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-offset-2 ">
+          <button className="mt-6 w-full rounded-[4px] bg-purple-500 py-[6px] tracking-[0.01em] text-white hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-offset-2 ">
             Start your 2-week free trial!
           </button>
         </div>
