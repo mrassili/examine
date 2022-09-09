@@ -49,14 +49,14 @@ export default function Navbar() {
       <ul className="ml-auto hidden items-center space-x-6 sm:flex">
         <li>
           <Link href="/login">
-            <a className="rounded text-[15px] leading-[20px] text-black focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2">
+            <button className="rounded px-4 py-2 text-[15px] leading-[20px] text-black hover:bg-gray-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-black focus-visible:ring-offset-2 active:bg-gray-200">
               Login
-            </a>
+            </button>
           </Link>
         </li>
         <li>
           <Link href="/signup">
-            <button className=" inline-block rounded-3xl bg-yellow-500 px-5 py-[10px] font-bold leading-[26px]  text-purple-500 hover:bg-yellow-700 focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:ring-offset-2">
+            <button className=" inline-block rounded-3xl bg-yellow-500 px-5 py-[10px] font-bold leading-[26px]  text-purple-500 hover:bg-yellow-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-yellow-400 focus-visible:ring-offset-2">
               Sign up
             </button>
           </Link>

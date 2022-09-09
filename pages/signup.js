@@ -53,10 +53,10 @@ const Signup = () => {
               <div className="relative mt-3 h-[70px]">
                 <input
                   type="email"
-                  className="inline h-full w-full rounded-[76px] border-[#E2D9F3] bg-transparent pl-6 text-sm leading-[1] placeholder:text-white focus:ring-purple-500"
+                  className="inline h-full w-full rounded-[76px] border-[#E2D9F3] bg-transparent pl-6 text-sm leading-[1] placeholder:text-white focus:border-none focus:ring-white"
                   placeholder="Your Email Address"
                 />
-                <button className="absolute right-4 top-1/2 flex h-[43px] w-[43px]  -translate-y-1/2 items-center justify-center rounded-full bg-white text-xs font-bold leading-[1.5] tracking-[0.01em] text-purple-600 focus-visible:outline-none focus-visible:ring focus-visible:ring-purple-600">
+                <button className="absolute right-4 top-1/2 flex h-[43px] w-[43px]  -translate-y-1/2 items-center justify-center rounded-full bg-white text-xs font-bold leading-[1.5] tracking-[0.01em] text-purple-600 focus-visible:outline-none focus-visible:ring focus-visible:ring-white">
                   <SendIcon className="w-[18px] text-purple-500" />
                 </button>
               </div>
