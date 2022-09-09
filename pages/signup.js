@@ -26,7 +26,7 @@ const Signup = () => {
 
       <Form>
         <H1>Create your account</H1>
-        <H2>It’s Includes a free 2 week trial!</H2>
+        <H2>It includes a free 2 week trial!</H2>
         <SocialLinks />
         <div className="mt-6 w-full space-y-4 sm:space-y-6">
           <TextField placeholder="Full Name" />

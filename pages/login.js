@@ -18,7 +18,7 @@ const Login = () => {
 
       <Form className="mb-[239px]">
         <H1>Welcome back! 👋</H1>
-        <H2>Let&apos;s build someting great</H2>
+        <H2>Let&apos;s build something great</H2>
         <SocialLinks />
         <div className="mt-6 w-full space-y-4 sm:space-y-6">
           <TextField placeholder="Email" type="email" />
