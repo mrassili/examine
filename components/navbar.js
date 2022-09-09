@@ -10,7 +10,7 @@ const SearchIcon = dynamic(() => import("../public/search.svg"), {
 
 export default function Navbar() {
   return (
-    <nav className="flex items-center border-b-[#ECE8F0] bg-purple-600 px-3 py-3.5 text-white sm:h-[90px] sm:border sm:bg-white sm:py-0 sm:pr-9 sm:pl-6 sm:shadow-nav ">
+    <nav className="sticky top-0 z-20 flex items-center border-b-[#ECE8F0] bg-purple-600 px-3 py-3.5 text-white sm:h-[90px] sm:border sm:bg-white sm:py-0 sm:pr-9 sm:pl-6 sm:shadow-nav ">
       <div className="focus:shadow-outline flex h-[30px] w-[33px] cursor-pointer select-none flex-col  items-center justify-center rounded bg-[#826595] duration-200 ease-in focus:outline-none sm:order-last sm:ml-6 sm:bg-transparent">
         <input
           type="checkbox"
