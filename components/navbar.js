@@ -32,10 +32,10 @@ export default function Navbar() {
         <Logo className="w-[72px] text-white sm:w-[140px] sm:text-purple-500" />
       </a>
 
-      <div className="relative ml-[9%] hidden h-full w-[55%] sm:flex">
+      <div className="relative ml-[9%] hidden h-full  w-[55%] bg-[#f7f7f7] py-8 pl-[75px] pr-[26%] shadow-inner sm:flex">
         <input
           type="search"
-          className="w-full border-none bg-[#f7f7f7] py-8 pl-[75px] pr-[38%] text-lg text-purple-500 shadow-inner placeholder:text-purple-500 focus:border-purple-500 focus:text-purple-500 focus:ring-purple-500 "
+          className="ml-[14px] h-7 w-full border-0 border-b border-purple-200 bg-transparent pb-2 pt-0 pl-0 text-lg text-purple-500  placeholder:text-purple-500 focus:border-b-purple-500 focus:text-purple-500 focus:ring-0"
           placeholder="What do you want to learn about?"
         />
 
